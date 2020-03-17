@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.nav-top {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(67, 67, 67);
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-title{
+    background-color: rgb(97, 97, 97);
+    height: 50px;
+}

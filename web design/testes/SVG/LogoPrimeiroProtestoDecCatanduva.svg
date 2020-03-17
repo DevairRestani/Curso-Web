@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+    <svg width="100%" height="605px" class="svg-main-content" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+        <polygon id="poligono1" class="animate-svg" points="5,200 164,302 164,98" />
+        <polygon id="poligono2" class="animate-svg" points="164,98 314,4 314,200" />
+        <polygon id="poligono3" class="animate-svg" points="164,98 164,302 314,200" />
+        <polygon id="poligono4" class="animate-svg" points="164,302 314,200 314,400" />
+        <polygon id="poligono5" class="animate-svg" points="164,302 164,501 314,400" />
+        <polygon id="poligono6" class="animate-svg" points="314,600 164,501 314,400" />
+
+        <rect id="retangulo1" class="animate-svg" width="85" height="50" x="340" y="230" />
+        <rect id="retangulo2" class="animate-svg" width="85" height="50" x="425" y="230" />
+
+        <circle id="circle1" class="animate-svg" cx="420.3" cy="130.5" r="70.5" />
+        <circle id="circle2" class="animate-svg" cx="420.3" cy="130.5" r="30.75" />
+
+    </svg>
+
+    <style>
+    .line {
+        fill: none;
+        stroke: black;
+        stroke-width: 2px;
+        ;
+    }
+
+    .animate-svg {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: avgAnimation 3s ease-in-out forwards infinite;
+    }
+
+
+
+    @keyframes avgAnimation {
+        0% {
+            stroke-dashoffset: 1000;
+        }
+
+        50% {
+            fill-opacity: 0;
+        }
+
+        70% {
+            stroke-dashoffset: 0;
+        }
+
+        100% {
+            stroke-dashoffset: 0;
+            fill-opacity: 1;
+        }
+    }
+
+    #circle1 {
+        stroke-width: 5px;
+        stroke: black;
+        fill: none;
+
+    }
+
+    #circle2 {
+        stroke-width: 5px;
+        stroke: blue;
+        fill: none;
+    }
+
+    /* circulo */
+
+    #poligono1 {
+        fill: #c5c5c5;
+        fill-opacity: 0;
+        stroke: #c5c5c5;
+        stroke-width: 5px;
+    }
+
+    #poligono2 {
+        fill: #9c9b9b;
+        fill-opacity: 0;
+        stroke: #9c9b9b;
+        stroke-width: 5px;
+    }
+
+    #poligono3 {
+        fill: #d9d9d9;
+        fill-opacity: 0;
+        stroke: #d9d9d9;
+        stroke-width: 5px;
+    }
+
+    #poligono4 {
+        fill: #a41515;
+        fill-opacity: 0;
+        stroke: #a41515;
+        stroke-width: 5px;
+    }
+
+    #poligono5 {
+        fill: #c7324d;
+        fill-opacity: 0;
+        stroke: #c7324d;
+        stroke-width: 5px;
+    }
+
+    #poligono6 {
+        fill: #cf5f65;
+        fill-opacity: 0;
+        stroke: #cf5f65;
+        stroke-width: 5px;
+    }
+
+    /* retangulos */
+
+    #retangulo1 {
+        fill: #cf5f65;
+        fill-opacity: 0;
+        stroke: #cf5f65;
+        stroke-width: 5px;
+    }
+
+    #retangulo2 {
+        fill: #c7324d;
+        fill-opacity: 0;
+        stroke: #c7324d;
+        stroke-width: 5px;
+    }
+</style>

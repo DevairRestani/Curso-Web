@@ -1,0 +1,34 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.calculadora{
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.tela{
+    border: 1px solid red;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(100px, 3);
+    grid-template-rows: repeat(100px, 5);
+    margin-top: 30px;
+    border: 1px solid blue;
+}
+
+.teclado > button{
+    font-size: 20px;
+    padding: 10px 15px;
+}
